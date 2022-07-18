@@ -64,7 +64,7 @@ const ListUserLulus = () => {
           width: 150,
         },
         {
-          label: 'Setatus Lulus',
+          label: 'Status Lulus',
           field: 'setlulus',
           width: 150,
         },
