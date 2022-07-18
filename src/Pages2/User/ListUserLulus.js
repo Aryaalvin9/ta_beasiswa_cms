@@ -27,7 +27,7 @@ const ListUserLulus = () => {
     setLoading(true);
     setTimeout(() => {
       axios
-        .get("http://localhost:8000/user/lulus")
+        .get("https://aryautility1.herokuapp.com/user/lulus")
         .then((res) => {
           setPosts(res.data.data);
           setLoading(false);

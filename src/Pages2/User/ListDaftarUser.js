@@ -32,7 +32,7 @@ const ListDaftarUser = () => {
     setLoading(true);
     setTimeout(() => {
       axios
-        .get("http://localhost:8000/users")
+        .get("https://aryautility1.herokuapp.com/users")
         .then((res) => {
           setPosts(res.data.data);
           setLoading(false);
