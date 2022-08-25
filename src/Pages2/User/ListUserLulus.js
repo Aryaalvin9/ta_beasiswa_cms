@@ -122,10 +122,10 @@ const ListUserLulus = () => {
            hover
            scrollX
            scrollY
-           maxHeight="300xp"
+          //  maxHeight="300xp"
            data={data()}
            materialSearch
-           fullPagination
+          //  fullPagination
           />
         </CDBCardBody>
       </CDBCard>

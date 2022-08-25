@@ -59,8 +59,8 @@ const Sidebar = () => {
         </Nav>
         <SidebarNav sidebar={sidebar}>
           <SidebarWrap>
-            <NavIcon>
-              {/* <AiIcons.AiOutlineClose /> */}
+          <NavIcon to="#">
+            <FaIcons.FaBars onClick={showSidebar} />
               <p
                 style={{
                   color: "white",
