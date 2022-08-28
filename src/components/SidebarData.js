@@ -6,6 +6,11 @@ import * as RiIcons from "react-icons/ri";
 
 export const SidebarData = [
   {
+    title: "Dasbord",
+    path: "/",
+    icon: <IoIcons.IoMdHome />,
+  },
+  {
     title: "Management User",
     path: "/user",
     icon: <FaIcons.FaUserCog />,

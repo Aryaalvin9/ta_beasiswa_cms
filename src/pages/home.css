@@ -1,0 +1,44 @@
+/* @import '@fortawesome/fontawesome-free/css/all.min.css';  
+@import 'bootstrap-css-only/css/bootstrap.min.css';  
+@import 'mdbreact/dist/css/mdb.css'; */
+
+/* .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #e3e6f0;
+    border-radius: 0.35rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}  */
+
+.text-primary {
+    color: #590696 !important;
+}
+.text-primary2 {
+      color: #37E2D5 !important;
+}
+.text-primary3 {
+      color: #C70A80 !important;
+}
+
+.border-left-primary {
+    border-left: 0.25rem solid #590696 !important;
+}
+
+.border-left-primary2 {
+    border-left: 0.25rem solid #37E2D5 !important;
+}
+
+.border-left-primary3 {
+    border-left: 0.25rem solid #C70A80 !important;
+}
+  
