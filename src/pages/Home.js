@@ -21,6 +21,7 @@ const Home = () => {
   const [count2, setCount2] = useState();
   const [count3, setCount3] = useState();
   const [loading, setLoading] = useState(false);
+  
 
   useEffect(() => {
     setLoading(true);
