@@ -29,7 +29,7 @@ const Home = () => {
       axios
         .get("https://aryautility1.herokuapp.com/users")
         .then((res) => {
-          setPosts(res.data.data);
+        
           setCount(res.data.count);
           setLoading(false);
           console.log(res.data.data);
@@ -46,7 +46,7 @@ const Home = () => {
       axios
         .get("https://aryautility1.herokuapp.com/user/lulus")
         .then((res) => {
-          setPosts(res.data.data);
+        
           setCount2(res.data.count);
           setLoading(false);
           console.log(res.data.data);
